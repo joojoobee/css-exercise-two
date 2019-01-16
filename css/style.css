@@ -1,15 +1,53 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 1.5em;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.8);
   float: left;
   position: fixed;
   width: 100%;
 }
 
+a {
+  color: #F17C55;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f15a24;
+}
+
+a:active {
+  color: #ce4d1e;
+}
+
+figcaption {
+  font-size: .9em;
+}
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 2.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.author {
+  font-size: 1.2em;
+  line-height: 2.8em;
+}
 .logo {
   margin: 20px;
   width: 100px;
